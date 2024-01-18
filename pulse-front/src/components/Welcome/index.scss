@@ -1,0 +1,38 @@
+#welcome {
+  padding: 120px 0px;
+  .welcome_container {
+    max-width: 1200px;
+    margin: auto;
+    .welcome_content {
+      .welcome_title {
+        text-align: center;
+        margin-bottom: 75px;
+        i {
+          color: #8a8a8a;
+          font-size: 65px;
+          margin-bottom: 20px;
+        }
+        &_content {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          justify-content: center;
+          .line {
+            height: 2px;
+            width: 300px;
+            background-color: #ffc515;
+          }
+          h2 {
+            font-size: 48px;
+            color: #1b1a1a;
+          }
+        }
+      }
+      .welcome_img{
+        width: 250px;
+        margin: auto;
+        margin-top: 45px;
+      }
+    }
+  }
+}

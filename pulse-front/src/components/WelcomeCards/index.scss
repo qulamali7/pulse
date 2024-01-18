@@ -1,0 +1,19 @@
+.welcoome_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  .welcome_card {
+    width: 32%;
+    text-align: center;
+    h3 {
+      font-size: 30px;
+      color: #1b1a1a;
+      margin-bottom: 35px;
+    }
+    p {
+      font-size: 16px;
+      color: #7e7e7e;
+    }
+  }
+}
